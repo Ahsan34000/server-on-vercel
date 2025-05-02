@@ -1,0 +1,18 @@
+{
+  "name": "2.hello-world",
+  "version": "1.0.0",
+  "description": "this is my first server application",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs",
+    "dev": "node server.mjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
